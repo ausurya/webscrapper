@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import requests
 
 # Define the URL of the webpage you want to scrape
-url = "https://en.wikipedia.org/wiki/Data_science"
+url = "http://www.gstguide.com/gst-faq"
 
 # Make a request to the webpage to retrieve the HTML
 response = requests.get(url)
